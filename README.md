@@ -4,10 +4,6 @@
 ## Background
 ![background](https://github.com/user-attachments/assets/b457b314-1039-4366-9050-7d07bc0b4fa8)
 
-Based on data from the World Health Organization from 2017 to 2023, it was found that the largest cause of patient deaths in hospitals (24.8%) was medication errors, with 58% of these cases being caused by administration errors. Various surveys conducted in several hospitals in Europe, America, India, and Africa revealed that the primary factor contributing to administration errors was the poor quality of healthcare workers, due to a lack of training, work experience, and medication administration guidelines.
-
-Therefore, a system is needed that can improve the performance of healthcare workers, which is expected to have a positive impact on the overall quality of healthcare personnel.
-
 ## Proposed Solution
 Creating a base model (advanced search) for information providers facilitates literacy and has the potential to be developed into a personalized recommendation system, making it easier to choose the right medication quickly and accurately. With the promising results of this model, it can help the health workforce to obtain and study medication recommendations. This model is a basic model which, if developed and integrated with patient data (medical history), can result in a personalized medicine recommendation system.
 
