@@ -16,12 +16,16 @@ A Recommendation System using the concept of content-based filtering is used to 
 
 ### Autoencoder architecture
 Parameters:
+
 Input Layer: input dimension = 33 (number of features post feature engineering)
 Encoding Layer
+
 - First Dense Layer: 64 neurons, activation function ReLU
 - Second Dense Layer: 32 neurons, activation function ReLU
 - Latent Layer: 8 neurons, activation function ReLU
+
 Decoding Layer
+
 - First Dense Layer: 32 neurons, activation function ReLU
 - Second Dense Layer: 64 neurons, activation function ReLU
 - Output Dense Layer: input dimension = 33, activation function Sigmoid
