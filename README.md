@@ -15,7 +15,7 @@ A Recommendation System using the concept of content-based filtering is used to 
 - Cosine Similarity calculates similarity based on the embeddings.
 
 ### Autoencoder architecture
-Parameters:
+#### Parameters:
 
 Input Layer: input dimension = 33 (number of features post feature engineering)
 
@@ -31,8 +31,7 @@ Decoding Layer
 - Second Dense Layer: 64 neurons, activation function ReLU
 - Output Dense Layer: input dimension = 33, activation function Sigmoid
 
-
-Hyperparameters:
+#### Hyperparameters:
 - Loss function: Mean Squared Error (MSE)
 - Optimization: Adam optimizer
 - Epochs: 10
