@@ -1,5 +1,9 @@
 # Medicine Recommendation System
+![inference](https://github.com/user-attachments/assets/afbc01fe-fa20-46a7-ac5e-ff4af16cc5a3)
+
 ## Background
+![background](https://github.com/user-attachments/assets/b457b314-1039-4366-9050-7d07bc0b4fa8)
+
 Based on data from the World Health Organization from 2017 to 2023, it was found that the largest cause of patient deaths in hospitals (24.8%) was medication errors, with 58% of these cases being caused by administration errors. Various surveys conducted in several hospitals in Europe, America, India, and Africa revealed that the primary factor contributing to administration errors was the poor quality of healthcare workers, due to a lack of training, work experience, and medication administration guidelines.
 
 Therefore, a system is needed that can improve the performance of healthcare workers, which is expected to have a positive impact on the overall quality of healthcare personnel.
@@ -10,6 +14,8 @@ Creating a base model (advanced search) for information providers facilitates li
 "Improved performance of healthcare workers is expected to enhance the quality of service and the hospital's reputation as a healthcare provider."
 
 ## Model Specifications
+![modelling](https://github.com/user-attachments/assets/0f566d1f-1449-4a26-be11-af190f853b5e)
+
 A Recommendation System using the concept of content-based filtering is used to provide alternative medications with similar characteristics. Components include:
 - Autoencoder generates embeddings;
 - Cosine Similarity calculates similarity based on the embeddings.
@@ -39,4 +45,8 @@ Decoding Layer
 - Validation split: 0.2
 
 ## Evaluation
+![evaluation](https://github.com/user-attachments/assets/2b6b7c98-fe46-4c61-a401-2345406416f3)
+
 The model used autoencoder + cosine similarity to calculate the similarity of medication characteristics. This model achieved an accuracy of 92.2% for k=5 (5 alternative medication recommendations).
+![accuracy](https://github.com/user-attachments/assets/03e7fc4e-cec4-4fa0-b4de-d76a9be0a33f)
+
